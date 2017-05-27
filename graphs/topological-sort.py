@@ -1,3 +1,6 @@
+# Only DAGs support topological sorting
+# O(V+E) time complexity
+
 from collections import defaultdict
 
 class Graph:
