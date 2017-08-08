@@ -3,11 +3,11 @@
 
 def reverse_list(head):
 
-    if head->next == None:
+    if head.next == None:
         return head
 
-    newHead = reverse_list(head->next)
-    head->next->next = head
-    head->next = None
+    newHead = reverse_list(head.next)
+    head.next.next = head
+    head.next = None
     return newHead
 
